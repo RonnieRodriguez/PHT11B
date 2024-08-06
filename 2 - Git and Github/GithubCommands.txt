@@ -1,0 +1,26 @@
+# --- Configuring Git ---
+git config --global user.name "username"
+git config --global user.email "email"
+
+- Check if configured correctly
+git config user.name
+git config user.email
+
+
+
+
+
+
+
+
+git init
+
+--- Git 3 Stages ---
+- Check the status of our files
+git status
+- Add the files into the staging area
+git add .
+git add [filename.ext]
+
+- create a commit -
+git commit -m "This is your message / description of the changes you made"
